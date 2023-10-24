@@ -6,50 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nota Servis HP</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            max-width: 400px;
-            margin: 0 auto;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        .form-group label {
-            display: block;
-            font-weight: bold;
-        }
-
-        .form-group input[type="text"] {
-            width: 100%;
-            padding: 8px;
-            font-size: 16px;
-        }
-
-        .form-group textarea {
-            width: 100%;
-            height: 100px;
-            font-size: 16px;
-            padding: 8px;
-        }
-
-        .form-group input[type="submit"] {
-            background-color: #4caf50;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="styleform.css"> <!-- Menambahkan file CSS eksternal -->
 </head>
 
 <body>
-    <div class="container">
+     <div class="container">
         <h2>Nota Servis HP</h2>
         <form action="proses_form.php" method="POST">
             <div class="form-group">
@@ -75,6 +36,12 @@
             <div class="form-group">
                 <input type="submit" value="Simpan Nota">
             </div>
+        </form>
+    </div>
+    <div class="container">
+        <h2>Nota Servis HP</h2>
+        <form action="proses_form.php" method="POST">
+            <!-- Isi formulir -->
         </form>
     </div>
 </body>
